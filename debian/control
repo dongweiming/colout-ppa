@@ -1,0 +1,17 @@
+Source: colout
+Section: python
+Priority: optional
+Maintainer: dongwm <ciici123@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), python-all (>= 2.5.6-6), python-setuptools (>= 0.6b3)
+Build-Depends-Indep: python-pygments, python-babel
+Standards-Version: 3.9.4
+Homepage: https://nojhan.github.com/colout/
+Vcs-Git: git://nojhan.github.com/colout.git
+Vcs-Browser: https://nojhan.github.com/colout/
+
+Package: colout
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}
+Recommends: python-pkg-resources
+Description: Color Up Arbitrary Command Ouput.
+ <insert long description, indented with spaces>

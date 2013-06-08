@@ -1,0 +1,3 @@
+version=3
+opts=uversionmangle=s/rc/~rc/ \
+http://pypi.python.org/packages/source/c/colout/colout-(.+)\.tar\.gz
